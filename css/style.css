@@ -1,0 +1,111 @@
+body {
+  width: 270px;
+  height: 100%;
+  margin: auto auto;
+  text-align: center;  
+  background-image: url("http://tedconfblog.files.wordpress.com/2013/09/memory.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: monospace;
+  padding-top: 70px;
+}
+.press {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  float: left;  
+  margin: 10px;
+}
+br {
+  clear: both;
+}
+#d1{
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: #009933;  
+  box-shadow: 2px 2px 8px white;
+}
+#d2{
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: #ff0000;
+  box-shadow: 2px 2px 8px white;
+}
+#d3{
+  border: 3px solid black;
+ border-radius: 50%;
+  background-color: #cccc00;
+  box-shadow: 2px 2px 8px white;
+}
+#d4{
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: #0052cc;
+  box-shadow: 2px 2px 8px white;
+}
+.switch, .container {
+  font-size: 20px;
+  height: 25px;
+  width: 130px;
+  margin: 0 auto;
+  
+}
+.switch > * {
+  float: left;
+}
+.onoff {
+  margin: 0 5px;
+  height: 20px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+  
+  
+}
+.onoff > * {
+  float: left;
+}
+#off {
+  height: 20px;
+  width: 20px;
+  background-color: grey;
+  border-radius: 25%;
+}
+#on {
+  height: 20px;
+  width: 20px;
+  border-radius: 25%;
+}
+#count {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 35px;
+  width: 30px;
+  padding: 0 10px;
+  font-size: 30px;  
+}
+
+p {
+  margin: 0 auto;
+  font-size: 20px
+}
+.container {
+  margin: 0 auto;
+}
+.container > * {
+  float: left;
+}
+button {
+  width: 50px;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 2px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
